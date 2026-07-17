@@ -19,7 +19,7 @@ END;
 
 Output:
 Name: Your Name
-Roll: 25
+Roll: 42
 Welcome to PL/SQL!
 Lucky Number: 5
 
@@ -32,7 +32,7 @@ Worked Example:  Aarav Shah, marks=420 => 84.00% PASS | Priya Patel, marks=240 =
 answer
 
 DECLARE
-  v_name VARCHAR2(50):='dev';
+  v_name VARCHAR2(50):='Sahil';
   v_marks NUMBER:=420;
   v_pct NUMBER;
   v_passed BOOLEAN:=TRUE;
@@ -46,7 +46,7 @@ END;
 /
 
 Output:
-dev
+Sahil
 Marks: 420
 Percentage: 84
 Date: 12-JUL-26
